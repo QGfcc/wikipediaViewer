@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27-mai-2016, 11:46:25
+    Author     : queni
+*/
+div.displayContainer {
+    /*color:white;*/
+    /*background-color: black;*/
+}
+.aBlock {
+    display: block;
+}
+/*.readMore {
+    background: linear-gradient( rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%) !important;
+    background: linear-gradient( rgba(255,255,255,0) , rgba(0,0,255,1)) !important;
+}*/
+/*.panel, .panel-heading, .panel.footer {*/
+/*.panel-heading {*/
+/*.panel {
+    .panel-footer {
+    background-color: red;
+    border-color: red;
+}*/
+.panel-body {
+    max-height: 80px;
+    overflow: hidden;
+}
+collapsed {
+/*    max-height: 80px;
+    overflow: hidden;*/
+}
+/*.panel-body:after {
+    content: "...";
+}*/
+body {
+    height: 100%;
+    background-color: rgba(0,100,200,0.5);
+}
+body * {
+    background-color: transparent;
+}
