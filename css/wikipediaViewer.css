@@ -7,40 +7,60 @@ and open the template in the editor.
     Created on : 27-mai-2016, 11:46:25
     Author     : queni
 */
-div.displayContainer {
-  /*color:white;*/
-  /*background-color: black;*/ }
+body {
+  height: 100%;
+  background-color: rgba(0, 100, 200, 0.5);
+  /*color: $backgroundColor;*/
+  /*color: $backgroundColorHover;*/
+  color: white;
+  transition: 0.2s; }
+
+h1 {
+  margin: 50px 0 50px 0;
+  /*color: $backgroundColor;*/ }
+
+form {
+  margin-bottom: 50px; }
+
+#searchInput {
+  /*color: $backgroundColorHover;*/
+  color: #0096fa;
+  text-align: center;
+  /*margin-bottom: 15px;*/
+  /*font-weight: bold;*/
+  /*font-size: 1.5em;*/ }
+
+/*#searchBtn {
+    
+}*/
+.btn.btn-default {
+  color: #0096fa; }
 
 .aBlock {
   display: block; }
 
-/*.readMore {
-    background: linear-gradient( rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%) !important;
-    background: linear-gradient( rgba(255,255,255,0) , rgba(0,0,255,1)) !important;
-}*/
-/*.panel, .panel-heading, .panel.footer {*/
-/*.panel-heading {*/
-/*.panel {
-    .panel-footer {
-    background-color: red;
-    border-color: red;
-}*/
-.panel-body {
+.panel a {
+  text-decoration: none; }
+
+.panel * {
+  color: #0096fa;
+  /*color: $backgrounColorHover;*/ }
+
+.panel *:hover {
+  /*color: $backgrounColor1;*/
+  color: #0064c8;
+  cursor: pointer;
+  /*opacity: 0.4;*/ }
+
+.collapsed {
   max-height: 80px;
   overflow: hidden; }
 
-collapsed {
-  /*    max-height: 80px;
-      overflow: hidden;*/ }
-
-/*.panel-body:after {
-    content: "...";
-}*/
-body {
-  height: 100%;
-  background-color: rgba(0, 100, 200, 0.5); }
-
-body * {
-  background-color: transparent; }
+footer {
+  margin-top: 40px; }
+  footer a {
+    /*font-weight: bold;*/
+    text-decoration: underline;
+    color: inherit; }
 
 /*# sourceMappingURL=wikipediaViewer.css.map */
